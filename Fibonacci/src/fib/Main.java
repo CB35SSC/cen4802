@@ -1,7 +1,13 @@
 package fib;
 
 public class Main {
-
+	/**
+	* Returns the value's result of the Fibonacci sequence
+	*
+	* @param  n  the value being input into the formula
+	* @return      the value
+	* @see         Numbers
+	*/
 	 public static long fib(long n) {
 	      if ((n == 0) || (n == 1))
 	         return n;
